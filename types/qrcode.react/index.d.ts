@@ -20,4 +20,7 @@ declare namespace qrcode {
 }
 
 declare const qrcode: qrcode.QRCode;
-export = qrcode;
+
+declare module 'qrcode.react' {
+  export default qrcode;
+}
